@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class FibonacciAndGoldenSection {
 
     public static void main(String... args) throws InterruptedException {
-        long fA = 0, fB = 1, fC = 0, count = 1;
+        long fA = 0L, fB = 1L, fC = 0L, count = 1L;
         double goldenerSchnitt;
 
         for (int i = 0; i < 91; i++) {
